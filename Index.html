@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Eddie csv</title>
+</head>
+<body >
+<div>
+    <form class="form-horizontal well">
+        <legend>
+            <h3>
+                <div id="title">Eddie's csv program</div>
+            </h3>
+        </legend>
+        <fieldset>
+            <label for="csvFileInput"> <strong>CSV File:</strong>
+            </label>
+            <input type="file" id="csvFileInput" onchange="handleFiles(this.files)"
+                   accept=".csv">
+
+</fieldset>
+</form>
+<div id="output">
+</div>
+</div>
+<br>
+<br>
+
+<script type="text/javascript" src="Csv.js"></script>
+</body>
+</html>
